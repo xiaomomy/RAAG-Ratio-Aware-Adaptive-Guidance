@@ -9,7 +9,7 @@
 </p>
 
 <div align="center">
-  <img src="figures/head_dispaly.png" alt="Sampling Time Comparison" width="800">
+  <img src="figures/head_display.png" alt="head_display" width="800">
   <br>
   <em>
       (Results on Stable Diffusion v3.5 and Lumina-Next. Left: 10-step original. Middle: 30-step original. Right: 10-step RAAG.) 
