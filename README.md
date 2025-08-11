@@ -2,6 +2,21 @@
 
 (Building Now...)
 
+<p align="center">
+  <a href="https://arxiv.org/abs/2508.03442">
+    <img src="https://img.shields.io/badge/arXiv-2503.09675-b31b1b.svg">
+  </a>
+</p>
+
+<div align="center">
+  <img src="figures/head_dispaly.png" alt="Sampling Time Comparison" width="800">
+  <br>
+  <em>
+      (Results on Stable Diffusion v3.5 and Lumina-Next. Left: 10-step original. Middle: 30-step original. Right: 10-step RAAG.) 
+  </em>
+</div>
+<br>
+
 ### Introduction
 
 The **relative strength (RATIO)** between conditional and unconditional noise predictions peaks sharply during the earliest reverse steps, making generation highly sensitive and unstable to guidance scale adjustments in this phase. To address this problem, **RAAG** introduces a RATIO-adaptive strategy that dynamically assigns an appropriate guidance scale at each step, achieving substantial improvements in overall generation quality.
