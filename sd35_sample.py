@@ -2,7 +2,7 @@ import torch
 from sd35_step import StableDiffusion3Pipeline
 from diffusers import FlowMatchEulerDiscreteScheduler
 
-model_id = "/mnt/data2/zsw/sd35"
+model_id = "stabilityai/stable-diffusion-3.5-large"
 inference_steps = 10
 
 scheduler = FlowMatchEulerDiscreteScheduler.from_pretrained(model_id, subfolder="scheduler")
